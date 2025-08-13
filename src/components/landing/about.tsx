@@ -38,7 +38,7 @@ export function About() {
             <div className="flex justify-center items-center">
               <Laptop className="h-10 w-10 text-primary" />
             </div>
-            <h3 className="text-lg font-bold font-headline">Digital Resources</h3>
+            <h3 className="text-lg font-bold font-headline">Free Resources</h3>
             <p className="text-sm text-muted-foreground font-body">
               Utilize our digital library and online study materials for modern
               learning.
