@@ -5,7 +5,7 @@ export function About() {
     <section id="about" className="w-full py-12 md:py-24 lg:py-32 bg-card">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
-          <div className="space-y-2">
+          <div className="space-y-2 animate-fade-in-up">
             <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm font-body">
               About Sages Library
             </div>
@@ -23,7 +23,7 @@ export function About() {
           </div>
         </div>
         <div className="mx-auto grid max-w-5xl items-start gap-8 sm:grid-cols-2 md:gap-12 lg:grid-cols-3 lg:gap-16 mt-12">
-          <div className="grid gap-1 text-center">
+          <div className="grid gap-1 text-center animate-fade-in-up" style={{ animationDelay: '0.2s', opacity: 0 }}>
             <div className="flex justify-center items-center">
               <LibraryIcon className="h-10 w-10 text-primary" />
             </div>
@@ -33,7 +33,7 @@ export function About() {
               more.
             </p>
           </div>
-          <div className="grid gap-1 text-center">
+          <div className="grid gap-1 text-center animate-fade-in-up" style={{ animationDelay: '0.3s', opacity: 0 }}>
             <div className="flex justify-center items-center">
               <Laptop className="h-10 w-10 text-primary" />
             </div>
@@ -43,7 +43,7 @@ export function About() {
               learning.
             </p>
           </div>
-          <div className="grid gap-1 text-center">
+          <div className="grid gap-1 text-center animate-fade-in-up" style={{ animationDelay: '0.4s', opacity: 0 }}>
             <div className="flex justify-center items-center">
               <Users className="h-10 w-10 text-primary" />
             </div>
