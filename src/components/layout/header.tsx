@@ -9,7 +9,7 @@ export function Header() {
         <Link href="/" className="flex items-center space-x-2">
           <Image src="https://www.sagespumphousekorba.com/img/preloader.png" alt="Sages Library Logo" width={32} height={32} className="h-8 w-8" />
           <span className="font-bold font-headline">
-            Sages Library
+            Sages Library, Pump House, Korba
           </span>
         </Link>
         <div className="flex items-center gap-4">

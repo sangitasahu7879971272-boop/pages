@@ -3,7 +3,7 @@ import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
-  title: 'Sages Library',
+  title: 'Sages Library, Pump House, Korba',
   description: 'Your Gateway to Knowledge in Korba',
 };
 
