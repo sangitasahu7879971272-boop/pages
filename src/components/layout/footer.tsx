@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { BookOpen } from 'lucide-react';
+import Image from 'next/image';
 
 export function Footer() {
   return (
@@ -7,7 +7,7 @@ export function Footer() {
       <div className="container mx-auto px-4 py-8">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center mb-4 md:mb-0">
-            <BookOpen className="h-6 w-6 mr-2" />
+            <Image src="https://www.sagespumphousekorba.com/img/preloader.png" alt="Sages Library Logo" width={24} height={24} className="h-6 w-6 mr-2" />
             <p className="font-bold text-lg font-headline">Sages Library</p>
           </div>
           <p className="text-sm font-body text-center md:text-left">
