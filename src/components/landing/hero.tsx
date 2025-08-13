@@ -17,8 +17,8 @@ export function Hero() {
               <Button size="lg" className="mt-4">Explore Collection</Button>
             </div>
           </div>
-          <div className="relative w-full h-[40vh] md:h-full animate-fade-in-up" style={{ animationDelay: '0.2s', opacity: 0 }}>
-            <div className="absolute top-0 right-0 w-3/4 h-3/4">
+          <div className="relative w-full h-[50vh] md:h-full animate-fade-in-up" style={{ animationDelay: '0.2s', opacity: 0 }}>
+            <div className="absolute top-0 left-0 w-2/3 h-2/3">
                <Image
                 src="https://www.sagespumphousekorba.logixcard.com/admin/uploads/lab/3dc63e7a-7d1a-4339-84c1-f7395b582996.JPG"
                 alt="Sages Library Building"
@@ -28,7 +28,7 @@ export function Hero() {
                 data-ai-hint="library building"
               />
             </div>
-            <div className="absolute bottom-0 left-0 w-1/2 h-1/2">
+            <div className="absolute bottom-0 right-0 w-1/2 h-1/2">
                <Image
                 src="https://www.sagespumphousekorba.logixcard.com/admin/uploads/lab/LIBRARY.jpg"
                 alt="Bookshelves"
@@ -36,6 +36,16 @@ export function Hero() {
                 height={400}
                 className="w-full h-full object-cover rounded-3xl shadow-2xl border-4 border-background"
                 data-ai-hint="library interior"
+              />
+            </div>
+            <div className="absolute top-1/4 right-0 w-1/3 h-1/3 transform -translate-y-1/4">
+               <Image
+                src="https://www.sagespumphousekorba.logixcard.com/admin/uploads/lab/IMG-20210220-WA0022.jpg"
+                alt="Reading Area"
+                width={300}
+                height={300}
+                className="w-full h-full object-cover rounded-3xl shadow-2xl border-4 border-background"
+                data-ai-hint="library reading area"
               />
             </div>
           </div>
