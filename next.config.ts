@@ -21,6 +21,12 @@ const nextConfig: NextConfig = {
         hostname: 'www.sagespumphousekorba.logixcard.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.sagespumphousekorba.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },

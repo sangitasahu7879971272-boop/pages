@@ -20,12 +20,12 @@ export function Hero() {
           <div className="relative w-full h-[50vh] md:h-full animate-fade-in-up" style={{ animationDelay: '0.2s', opacity: 0 }}>
             <div className="absolute top-0 left-0 w-2/3 h-2/3">
                <Image
-                src="https://www.sagespumphousekorba.logixcard.com/admin/uploads/lab/3dc63e7a-7d1a-4339-84c1-f7395b582996.JPG"
-                alt="Sages Library Building"
+                src="https://www.sagespumphousekorba.com/admin/uploads/lab/PHOTO-2021-02-21-18-47-12.jpg"
+                alt="Sages School Building"
                 width={600}
                 height={400}
                 className="w-full h-full object-cover rounded-3xl shadow-2xl"
-                data-ai-hint="library building"
+                data-ai-hint="school building"
               />
             </div>
             <div className="absolute bottom-0 right-0 w-1/2 h-1/2">
