@@ -20,8 +20,8 @@ export function Hero() {
           <div className="relative w-full h-[40vh] md:h-full animate-fade-in-up" style={{ animationDelay: '0.2s', opacity: 0 }}>
             <div className="absolute top-0 right-0 w-3/4 h-3/4">
                <Image
-                src="https://placehold.co/600x400.png"
-                alt="Library Interior"
+                src="https://www.sagespumphousekorba.logixcard.com/admin/uploads/lab/3dc63e7a-7d1a-4339-84c1-f7395b582996.JPG"
+                alt="Sages Library Building"
                 width={600}
                 height={400}
                 className="w-full h-full object-cover rounded-3xl shadow-2xl"
