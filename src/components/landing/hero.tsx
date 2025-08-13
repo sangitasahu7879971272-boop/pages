@@ -10,15 +10,15 @@ export function Hero() {
             <h1 className="font-headline text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-foreground animate-fade-in-down">
               Sages Library
             </h1>
-            <p className="font-body text-lg md:text-xl max-w-md mx-auto md:mx-0 text-muted-foreground animate-fade-in-up">
+            <p className="font-body text-lg md:text-xl max-w-md mx-auto md:mx-0 text-muted-foreground animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
               Your Gateway to Knowledge in Korba
             </p>
             <div className="animate-fade-in-up" style={{ animationDelay: '0.4s', opacity: 0 }}>
               <Button size="lg" className="mt-4">Explore Collection</Button>
             </div>
           </div>
-          <div className="relative w-full h-[50vh] md:h-full animate-fade-in-up" style={{ animationDelay: '0.2s', opacity: 0 }}>
-            <div className="absolute top-0 left-0 w-2/3 h-2/3">
+          <div className="relative w-full h-[50vh] md:h-full">
+            <div className="absolute top-0 left-0 w-2/3 h-2/3 animate-scale-in" style={{ animationDelay: '0.3s' }}>
                <Image
                 src="https://www.sagespumphousekorba.com/admin/uploads/lab/PHOTO-2021-02-21-18-47-12.jpg"
                 alt="Sages School Building"
@@ -28,7 +28,7 @@ export function Hero() {
                 data-ai-hint="school building"
               />
             </div>
-            <div className="absolute bottom-0 right-0 w-1/2 h-1/2">
+            <div className="absolute bottom-0 right-0 w-1/2 h-1/2 animate-scale-in" style={{ animationDelay: '0.5s' }}>
                <Image
                 src="https://www.sagespumphousekorba.logixcard.com/admin/uploads/lab/LIBRARY.jpg"
                 alt="Bookshelves"
@@ -38,7 +38,7 @@ export function Hero() {
                 data-ai-hint="library interior"
               />
             </div>
-            <div className="absolute top-1/4 right-0 w-1/3 h-1/3 transform -translate-y-1/4">
+            <div className="absolute top-1/4 right-0 w-1/3 h-1/3 transform -translate-y-1/4 animate-scale-in" style={{ animationDelay: '0.7s' }}>
                <Image
                 src="https://www.sagespumphousekorba.logixcard.com/admin/uploads/lab/IMG-20210220-WA0022.jpg"
                 alt="Reading Area"

@@ -33,7 +33,7 @@ export function About() {
               more.
             </p>
           </div>
-          <div className="grid gap-1 text-center animate-fade-in-up" style={{ animationDelay: '0.3s', opacity: 0 }}>
+          <div className="grid gap-1 text-center animate-fade-in-up" style={{ animationDelay: '0.4s', opacity: 0 }}>
             <div className="flex justify-center items-center">
               <Laptop className="h-10 w-10 text-primary" />
             </div>
@@ -43,7 +43,7 @@ export function About() {
               learning.
             </p>
           </div>
-          <div className="grid gap-1 text-center animate-fade-in-up" style={{ animationDelay: '0.4s', opacity: 0 }}>
+          <div className="grid gap-1 text-center animate-fade-in-up" style={{ animationDelay: '0.6s', opacity: 0 }}>
             <div className="flex justify-center items-center">
               <Users className="h-10 w-10 text-primary" />
             </div>
