@@ -30,7 +30,7 @@ export function Hero() {
             </div>
             <div className="absolute bottom-0 left-0 w-1/2 h-1/2">
                <Image
-                src="https://placehold.co/400x400.png"
+                src="https://www.sagespumphousekorba.logixcard.com/admin/uploads/lab/LIBRARY.jpg"
                 alt="Bookshelves"
                 width={400}
                 height={400}
