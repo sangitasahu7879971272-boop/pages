@@ -14,7 +14,6 @@ export function Header() {
         </Link>
         <div className="flex items-center gap-4">
            <Button variant="ghost" className="hidden md:inline-flex">About</Button>
-           <Button variant="outline">Contact Us</Button>
         </div>
       </div>
     </header>
