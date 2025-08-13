@@ -16,8 +16,7 @@ export function About() {
               The SAGES Library is a hub of learning and inspiration, offering
               modern reading spaces, digital resources, and a rich collection
               of textbooks, reference books, magazines, newspapers, and
-              storybooks. With facilities like book lending, reading rooms, and
-              access to online study materials, our library supports both
+              storybooks. With facilities like book lending, and reading rooms, our library supports both
               academic excellence and personal growth. Here, curiosity meets
               opportunity—nurturing minds, building futures.
             </p>
